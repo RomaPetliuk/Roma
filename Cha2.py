@@ -11,5 +11,7 @@ while True:
         print(f'{player2.name} attack {player1.name} '
             f'1 наніс {p1_damage}  шкоди')
         print(player2, player1, sep='\n')
+    else:
+        break
 
 
