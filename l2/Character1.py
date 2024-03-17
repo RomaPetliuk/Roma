@@ -31,4 +31,3 @@ class Character:
         else:
             return False
 
-
