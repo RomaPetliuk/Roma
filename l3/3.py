@@ -1,12 +1,11 @@
-from l2.character import Character
-from berserk import berserk
+from vampir import vampir
+from l2.Character1 import Character
 
-
-player1 = Character('Roma', damage=15)
+player1 = vampir('Roma', damage=10)
 player1.show_info()
 
-player2 = berserk('Kata', damage=10)
-print(player2)
+player2 = Character('Kata', damage=5)
+
 
 while player1.is_alive() and player2.is_alive():
       p1_damage = player1.attack(player2)
