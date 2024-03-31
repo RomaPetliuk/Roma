@@ -17,3 +17,4 @@ except ValueError:
 
 except IndexError:
     print([2/5, "123"/4, 18/0, ''/15])
+    
