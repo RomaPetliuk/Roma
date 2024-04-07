@@ -50,4 +50,4 @@ human.do(go_to_park)
 
 print(human)
 print('Сходил в парк')
-
+print('Сходил в парк')
